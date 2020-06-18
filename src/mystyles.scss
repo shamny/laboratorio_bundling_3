@@ -1,0 +1,61 @@
+$redcolor: #f781be;
+$orangecolor: #f7be81;
+$yellowcolor: #f3f781;
+$bluecolor: #81bef7;
+$darkcolor: #8181f7;
+$greencolor: #81f7be;
+$violet: #e2a9f3;
+$pinkcolor: #ff99cc;
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  color: $darkcolor;
+}
+
+.rainbow-color {
+  color: $pinkcolor;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-column-container {
+  display: flex;
+  flex-direction: column;
+
+  & .caja {
+    width: 4rem;
+    padding: 1rem;
+  }
+
+  & .red-background {
+    background-color: $redcolor;
+  }
+  & .orange-background {
+    background-color: $orangecolor;
+  }
+  & .yellow-background {
+    background-color: $yellowcolor;
+  }
+  & .blue-background {
+    background-color: $bluecolor;
+  }
+  & .green-background {
+    background-color: $greencolor;
+  }
+  & .darkblue-background {
+    background-color: $darkcolor;
+  }
+  & .violet-background {
+    background-color: $violet;
+  }
+}
