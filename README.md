@@ -1,6 +1,6 @@
 # laboratorio_bundling_3
-# Laboratorio del tercer módulo del Máster Frontend Bundling
-# Master Front End VIII - Laboratorio - Módulo 3 - Webpack
+ Laboratorio del tercer módulo del Máster Frontend Bundling
+ Master Front End VIII - Laboratorio - Módulo 3 - Webpack
 # Básico
 Implementar una aplicación simple que:
  - Tenga el bundling montado con webpack.
